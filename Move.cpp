@@ -21,7 +21,7 @@ struct Point {
     }
 
     // (2) THEN UNCOMMENT THIS TO OPTIMIZE FURTHER:
-    // Point(const Point&& other) {}          // Move constructor   
+    // Point(const Point&& other): x(0), y(0) {}          // Move constructor   
 };
 
 int main(){
